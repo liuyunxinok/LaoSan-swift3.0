@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09623517820FC931CA79EC8F /* Pods_LaoSanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */; };
+		1D8D88B091DB953DD4526185 /* Pods_LaoSan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0426CC97C17D0B8C6FC558 /* Pods_LaoSan.framework */; };
 		85E8C9B21F5668D40055723E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9B11F5668D40055723E /* AppDelegate.swift */; };
 		85E8C9B41F5668D40055723E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9B31F5668D40055723E /* ViewController.swift */; };
 		85E8C9B71F5668D40055723E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B51F5668D40055723E /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
 		85E8C9C71F5668D40055723E /* LaoSanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9C61F5668D40055723E /* LaoSanTests.swift */; };
 		85E8C9D21F5668D40055723E /* LaoSanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9D11F5668D40055723E /* LaoSanUITests.swift */; };
+		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C02ADAE741FE7A5413FDB59 /* Pods-LaoSanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSanTests/Pods-LaoSanTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D8ED28533EB0D8084D1CEF0 /* Pods-LaoSanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSanUITests/Pods-LaoSanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		502BB3E4DBB6FD9F43C562B4 /* Pods-LaoSanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSanUITests/Pods-LaoSanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0426CC97C17D0B8C6FC558 /* Pods_LaoSan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B983B0E52DA88BDCB60F41A /* Pods-LaoSan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.debug.xcconfig"; sourceTree = "<group>"; };
+		7FEF276868F2CACFA9C4108F /* Pods-LaoSanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSanTests/Pods-LaoSanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		85E8C9AE1F5668D40055723E /* LaoSan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaoSan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9B11F5668D40055723E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E8C9B31F5668D40055723E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		85E8C9CD1F5668D40055723E /* LaoSanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaoSanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9D11F5668D40055723E /* LaoSanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaoSanUITests.swift; sourceTree = "<group>"; };
 		85E8C9D31F5668D50055723E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
+		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8D88B091DB953DD4526185 /* Pods_LaoSan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09623517820FC931CA79EC8F /* Pods_LaoSanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				85E8C9C51F5668D40055723E /* LaoSanTests */,
 				85E8C9D01F5668D40055723E /* LaoSanUITests */,
 				85E8C9AF1F5668D40055723E /* Products */,
+				886BE96A221B9ED0925EAE87 /* Pods */,
+				CFEC478A66D25951C36F2F04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +114,14 @@
 		85E8C9B01F5668D40055723E /* LaoSan */ = {
 			isa = PBXGroup;
 			children = (
+				85E8C9DF1F5669200055723E /* LSAudioPlayer */,
+				85E8C9E01F5669200055723E /* LSDownLoadManager */,
+				85E8C9E11F5669200055723E /* LSImagePreview */,
+				85E8C9E21F5669200055723E /* LSNetwork */,
+				85E8C9E31F5669200055723E /* LSPhotoPicker */,
+				85E8C9E41F5669200055723E /* LSSandBoxFileManager */,
+				85E8C9E51F5669200055723E /* LSUIKit */,
+				85E8C9E61F5669200055723E /* LSVideoPlayer */,
 				85E8C9B11F5668D40055723E /* AppDelegate.swift */,
 				85E8C9B31F5668D40055723E /* ViewController.swift */,
 				85E8C9B51F5668D40055723E /* Main.storyboard */,
@@ -125,6 +150,85 @@
 			path = LaoSanUITests;
 			sourceTree = "<group>";
 		};
+		85E8C9DF1F5669200055723E /* LSAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSAudioPlayer;
+			sourceTree = "<group>";
+		};
+		85E8C9E01F5669200055723E /* LSDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSDownLoadManager;
+			sourceTree = "<group>";
+		};
+		85E8C9E11F5669200055723E /* LSImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSImagePreview;
+			sourceTree = "<group>";
+		};
+		85E8C9E21F5669200055723E /* LSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSNetwork;
+			sourceTree = "<group>";
+		};
+		85E8C9E31F5669200055723E /* LSPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSPhotoPicker;
+			sourceTree = "<group>";
+		};
+		85E8C9E41F5669200055723E /* LSSandBoxFileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSSandBoxFileManager;
+			sourceTree = "<group>";
+		};
+		85E8C9E51F5669200055723E /* LSUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSUIKit;
+			sourceTree = "<group>";
+		};
+		85E8C9E61F5669200055723E /* LSVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSVideoPlayer;
+			sourceTree = "<group>";
+		};
+		886BE96A221B9ED0925EAE87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B983B0E52DA88BDCB60F41A /* Pods-LaoSan.debug.xcconfig */,
+				C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */,
+				7FEF276868F2CACFA9C4108F /* Pods-LaoSanTests.debug.xcconfig */,
+				3C02ADAE741FE7A5413FDB59 /* Pods-LaoSanTests.release.xcconfig */,
+				502BB3E4DBB6FD9F43C562B4 /* Pods-LaoSanUITests.debug.xcconfig */,
+				4D8ED28533EB0D8084D1CEF0 /* Pods-LaoSanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFEC478A66D25951C36F2F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B0426CC97C17D0B8C6FC558 /* Pods_LaoSan.framework */,
+				A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */,
+				FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E8C9D61F5668D50055723E /* Build configuration list for PBXNativeTarget "LaoSan" */;
 			buildPhases = (
+				CF8D93455530A87652CA2CE8 /* [CP] Check Pods Manifest.lock */,
 				85E8C9AA1F5668D40055723E /* Sources */,
 				85E8C9AB1F5668D40055723E /* Frameworks */,
 				85E8C9AC1F5668D40055723E /* Resources */,
+				1C6A1B81BFA258DAB1BD95D5 /* [CP] Embed Pods Frameworks */,
+				01A26A1CA585FF5905D873EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E8C9D91F5668D50055723E /* Build configuration list for PBXNativeTarget "LaoSanTests" */;
 			buildPhases = (
+				71D926957B253159309A1A12 /* [CP] Check Pods Manifest.lock */,
 				85E8C9BE1F5668D40055723E /* Sources */,
 				85E8C9BF1F5668D40055723E /* Frameworks */,
 				85E8C9C01F5668D40055723E /* Resources */,
+				06E7E534BFD4220B5BCFE116 /* [CP] Embed Pods Frameworks */,
+				F730A25534FB3E9B5865A8C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E8C9DC1F5668D50055723E /* Build configuration list for PBXNativeTarget "LaoSanUITests" */;
 			buildPhases = (
+				01513D161AE10D266A051933 /* [CP] Check Pods Manifest.lock */,
 				85E8C9C91F5668D40055723E /* Sources */,
 				85E8C9CA1F5668D40055723E /* Frameworks */,
 				85E8C9CB1F5668D40055723E /* Resources */,
+				6865548B1934C03600350AEE /* [CP] Embed Pods Frameworks */,
+				0A48425C28CAD59159ECB6C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +306,7 @@
 				TargetAttributes = {
 					85E8C9AD1F5668D40055723E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D47CZT3KBD;
 						ProvisioningStyle = Automatic;
 					};
 					85E8C9C11F5668D40055723E = {
@@ -253,6 +367,182 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01513D161AE10D266A051933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaoSanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		01A26A1CA585FF5905D873EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06E7E534BFD4220B5BCFE116 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaoSanTests/Pods-LaoSanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A48425C28CAD59159ECB6C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaoSanUITests/Pods-LaoSanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C6A1B81BFA258DAB1BD95D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6865548B1934C03600350AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaoSanUITests/Pods-LaoSanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D926957B253159309A1A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaoSanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8D93455530A87652CA2CE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaoSan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F730A25534FB3E9B5865A8C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaoSanTests/Pods-LaoSanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85E8C9AA1F5668D40055723E /* Sources */ = {
@@ -412,8 +702,10 @@
 		};
 		85E8C9D71F5668D50055723E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B983B0E52DA88BDCB60F41A /* Pods-LaoSan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47CZT3KBD;
 				INFOPLIST_FILE = LaoSan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LaoSan;
@@ -424,8 +716,10 @@
 		};
 		85E8C9D81F5668D50055723E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47CZT3KBD;
 				INFOPLIST_FILE = LaoSan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LaoSan;
@@ -436,6 +730,7 @@
 		};
 		85E8C9DA1F5668D50055723E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEF276868F2CACFA9C4108F /* Pods-LaoSanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +745,7 @@
 		};
 		85E8C9DB1F5668D50055723E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C02ADAE741FE7A5413FDB59 /* Pods-LaoSanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +760,7 @@
 		};
 		85E8C9DD1F5668D50055723E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502BB3E4DBB6FD9F43C562B4 /* Pods-LaoSanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LaoSanUITests/Info.plist;
@@ -477,6 +774,7 @@
 		};
 		85E8C9DE1F5668D50055723E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8ED28533EB0D8084D1CEF0 /* Pods-LaoSanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LaoSanUITests/Info.plist;
