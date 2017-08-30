@@ -154,56 +154,64 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSAudioPlayer;
+			name = LSAudioPlayer;
+			path = ../../studyDemo/LaoSan/LaoSan/LSAudioPlayer;
 			sourceTree = "<group>";
 		};
 		85E8C9E01F5669200055723E /* LSDownLoadManager */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSDownLoadManager;
+			name = LSDownLoadManager;
+			path = ../../studyDemo/LaoSan/LaoSan/LSDownLoadManager;
 			sourceTree = "<group>";
 		};
 		85E8C9E11F5669200055723E /* LSImagePreview */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSImagePreview;
+			name = LSImagePreview;
+			path = ../../studyDemo/LaoSan/LaoSan/LSImagePreview;
 			sourceTree = "<group>";
 		};
 		85E8C9E21F5669200055723E /* LSNetwork */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSNetwork;
+			name = LSNetwork;
+			path = ../../studyDemo/LaoSan/LaoSan/LSNetwork;
 			sourceTree = "<group>";
 		};
 		85E8C9E31F5669200055723E /* LSPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSPhotoPicker;
+			name = LSPhotoPicker;
+			path = ../../studyDemo/LaoSan/LaoSan/LSPhotoPicker;
 			sourceTree = "<group>";
 		};
 		85E8C9E41F5669200055723E /* LSSandBoxFileManager */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSSandBoxFileManager;
+			name = LSSandBoxFileManager;
+			path = ../../studyDemo/LaoSan/LaoSan/LSSandBoxFileManager;
 			sourceTree = "<group>";
 		};
 		85E8C9E51F5669200055723E /* LSUIKit */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSUIKit;
+			name = LSUIKit;
+			path = ../../studyDemo/LaoSan/LaoSan/LSUIKit;
 			sourceTree = "<group>";
 		};
 		85E8C9E61F5669200055723E /* LSVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LSVideoPlayer;
+			name = LSVideoPlayer;
+			path = ../../studyDemo/LaoSan/LaoSan/LSAudioPlayer;
 			sourceTree = "<group>";
 		};
 		886BE96A221B9ED0925EAE87 /* Pods */ = {
@@ -805,6 +813,7 @@
 				85E8C9D81F5668D50055723E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85E8C9D91F5668D50055723E /* Build configuration list for PBXNativeTarget "LaoSanTests" */ = {
 			isa = XCConfigurationList;
@@ -813,6 +822,7 @@
 				85E8C9DB1F5668D50055723E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85E8C9DC1F5668D50055723E /* Build configuration list for PBXNativeTarget "LaoSanUITests" */ = {
 			isa = XCConfigurationList;
@@ -821,6 +831,7 @@
 				85E8C9DE1F5668D50055723E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
