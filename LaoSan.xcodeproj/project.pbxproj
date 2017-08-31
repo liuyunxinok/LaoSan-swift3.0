@@ -16,6 +16,13 @@
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
 		85E8C9C71F5668D40055723E /* LaoSanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9C61F5668D40055723E /* LaoSanTests.swift */; };
 		85E8C9D21F5668D40055723E /* LaoSanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9D11F5668D40055723E /* LaoSanUITests.swift */; };
+		85E8CA121F57AF640055723E /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA111F57AF640055723E /* LSLabelExtension.swift */; };
+		85E8CA141F57AF750055723E /* LSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA131F57AF750055723E /* LSButtonExtension.swift */; };
+		85E8CA161F57AF870055723E /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA151F57AF870055723E /* LSViewExtension.swift */; };
+		85E8CA181F57AF9B0055723E /* LSImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA171F57AF9B0055723E /* LSImageViewExtension.swift */; };
+		85E8CA1A1F57AFAC0055723E /* LSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA191F57AFAC0055723E /* LSImageExtension.swift */; };
+		85E8CA1C1F57AFBD0055723E /* LSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA1B1F57AFBD0055723E /* LSColorExtension.swift */; };
+		85E8CA1E1F57AFC90055723E /* LSFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA1D1F57AFC90055723E /* LSFontExtension.swift */; };
 		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +63,13 @@
 		85E8C9CD1F5668D40055723E /* LaoSanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaoSanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9D11F5668D40055723E /* LaoSanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaoSanUITests.swift; sourceTree = "<group>"; };
 		85E8C9D31F5668D50055723E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E8CA111F57AF640055723E /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
+		85E8CA131F57AF750055723E /* LSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonExtension.swift; sourceTree = "<group>"; };
+		85E8CA151F57AF870055723E /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
+		85E8CA171F57AF9B0055723E /* LSImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageViewExtension.swift; sourceTree = "<group>"; };
+		85E8CA191F57AFAC0055723E /* LSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageExtension.swift; sourceTree = "<group>"; };
+		85E8CA1B1F57AFBD0055723E /* LSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSColorExtension.swift; sourceTree = "<group>"; };
+		85E8CA1D1F57AFC90055723E /* LSFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSFontExtension.swift; sourceTree = "<group>"; };
 		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
 		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +209,7 @@
 		85E8CA0E1F57AEC30055723E /* LSUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				85E8CA101F57AF3A0055723E /* Extensions */,
 			);
 			path = LSUIKit;
 			sourceTree = "<group>";
@@ -204,6 +219,20 @@
 			children = (
 			);
 			path = LSVideoPlayer;
+			sourceTree = "<group>";
+		};
+		85E8CA101F57AF3A0055723E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85E8CA111F57AF640055723E /* LSLabelExtension.swift */,
+				85E8CA131F57AF750055723E /* LSButtonExtension.swift */,
+				85E8CA151F57AF870055723E /* LSViewExtension.swift */,
+				85E8CA171F57AF9B0055723E /* LSImageViewExtension.swift */,
+				85E8CA191F57AFAC0055723E /* LSImageExtension.swift */,
+				85E8CA1B1F57AFBD0055723E /* LSColorExtension.swift */,
+				85E8CA1D1F57AFC90055723E /* LSFontExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		886BE96A221B9ED0925EAE87 /* Pods */ = {
@@ -549,8 +578,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E8CA1A1F57AFAC0055723E /* LSImageExtension.swift in Sources */,
+				85E8CA1E1F57AFC90055723E /* LSFontExtension.swift in Sources */,
+				85E8CA121F57AF640055723E /* LSLabelExtension.swift in Sources */,
 				85E8C9B41F5668D40055723E /* ViewController.swift in Sources */,
+				85E8CA141F57AF750055723E /* LSButtonExtension.swift in Sources */,
+				85E8CA1C1F57AFBD0055723E /* LSColorExtension.swift in Sources */,
 				85E8C9B21F5668D40055723E /* AppDelegate.swift in Sources */,
+				85E8CA161F57AF870055723E /* LSViewExtension.swift in Sources */,
+				85E8CA181F57AF9B0055723E /* LSImageViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
