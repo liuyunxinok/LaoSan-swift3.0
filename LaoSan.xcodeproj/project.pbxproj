@@ -16,13 +16,13 @@
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
 		85E8C9C71F5668D40055723E /* LaoSanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9C61F5668D40055723E /* LaoSanTests.swift */; };
 		85E8C9D21F5668D40055723E /* LaoSanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9D11F5668D40055723E /* LaoSanUITests.swift */; };
-		85E8CA121F57AF640055723E /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA111F57AF640055723E /* LSLabelExtension.swift */; };
-		85E8CA141F57AF750055723E /* LSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA131F57AF750055723E /* LSButtonExtension.swift */; };
-		85E8CA161F57AF870055723E /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA151F57AF870055723E /* LSViewExtension.swift */; };
-		85E8CA181F57AF9B0055723E /* LSImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA171F57AF9B0055723E /* LSImageViewExtension.swift */; };
-		85E8CA1A1F57AFAC0055723E /* LSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA191F57AFAC0055723E /* LSImageExtension.swift */; };
-		85E8CA1C1F57AFBD0055723E /* LSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA1B1F57AFBD0055723E /* LSColorExtension.swift */; };
-		85E8CA1E1F57AFC90055723E /* LSFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA1D1F57AFC90055723E /* LSFontExtension.swift */; };
+		85E8CA2E1F57BE080055723E /* LSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA241F57BE080055723E /* LSButtonExtension.swift */; };
+		85E8CA2F1F57BE080055723E /* LSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA251F57BE080055723E /* LSColorExtension.swift */; };
+		85E8CA301F57BE080055723E /* LSFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA261F57BE080055723E /* LSFontExtension.swift */; };
+		85E8CA311F57BE080055723E /* LSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA271F57BE080055723E /* LSImageExtension.swift */; };
+		85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA281F57BE080055723E /* LSImageViewExtension.swift */; };
+		85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA291F57BE080055723E /* LSLabelExtension.swift */; };
+		85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA2A1F57BE080055723E /* LSViewExtension.swift */; };
 		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,13 +63,13 @@
 		85E8C9CD1F5668D40055723E /* LaoSanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaoSanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9D11F5668D40055723E /* LaoSanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaoSanUITests.swift; sourceTree = "<group>"; };
 		85E8C9D31F5668D50055723E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85E8CA111F57AF640055723E /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
-		85E8CA131F57AF750055723E /* LSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonExtension.swift; sourceTree = "<group>"; };
-		85E8CA151F57AF870055723E /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
-		85E8CA171F57AF9B0055723E /* LSImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageViewExtension.swift; sourceTree = "<group>"; };
-		85E8CA191F57AFAC0055723E /* LSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageExtension.swift; sourceTree = "<group>"; };
-		85E8CA1B1F57AFBD0055723E /* LSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSColorExtension.swift; sourceTree = "<group>"; };
-		85E8CA1D1F57AFC90055723E /* LSFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSFontExtension.swift; sourceTree = "<group>"; };
+		85E8CA241F57BE080055723E /* LSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonExtension.swift; sourceTree = "<group>"; };
+		85E8CA251F57BE080055723E /* LSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSColorExtension.swift; sourceTree = "<group>"; };
+		85E8CA261F57BE080055723E /* LSFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSFontExtension.swift; sourceTree = "<group>"; };
+		85E8CA271F57BE080055723E /* LSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageExtension.swift; sourceTree = "<group>"; };
+		85E8CA281F57BE080055723E /* LSImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageViewExtension.swift; sourceTree = "<group>"; };
+		85E8CA291F57BE080055723E /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
+		85E8CA2A1F57BE080055723E /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
 		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
 		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,13 +128,13 @@
 		85E8C9B01F5668D40055723E /* LaoSan */ = {
 			isa = PBXGroup;
 			children = (
+				85E8CA221F57BE080055723E /* LSKit */,
 				85E8CA081F57AEC30055723E /* LSAudioPlayer */,
 				85E8CA091F57AEC30055723E /* LSDownLoadManager */,
 				85E8CA0A1F57AEC30055723E /* LSImagePreview */,
 				85E8CA0B1F57AEC30055723E /* LSNetwork */,
 				85E8CA0C1F57AEC30055723E /* LSPhotoPicker */,
 				85E8CA0D1F57AEC30055723E /* LSSandBoxFileManager */,
-				85E8CA0E1F57AEC30055723E /* LSUIKit */,
 				85E8CA0F1F57AEC30055723E /* LSVideoPlayer */,
 				85E8C9B11F5668D40055723E /* AppDelegate.swift */,
 				85E8C9B31F5668D40055723E /* ViewController.swift */,
@@ -206,14 +206,6 @@
 			path = LSSandBoxFileManager;
 			sourceTree = "<group>";
 		};
-		85E8CA0E1F57AEC30055723E /* LSUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				85E8CA101F57AF3A0055723E /* Extensions */,
-			);
-			path = LSUIKit;
-			sourceTree = "<group>";
-		};
 		85E8CA0F1F57AEC30055723E /* LSVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,18 +213,50 @@
 			path = LSVideoPlayer;
 			sourceTree = "<group>";
 		};
-		85E8CA101F57AF3A0055723E /* Extensions */ = {
+		85E8CA221F57BE080055723E /* LSKit */ = {
 			isa = PBXGroup;
 			children = (
-				85E8CA111F57AF640055723E /* LSLabelExtension.swift */,
-				85E8CA131F57AF750055723E /* LSButtonExtension.swift */,
-				85E8CA151F57AF870055723E /* LSViewExtension.swift */,
-				85E8CA171F57AF9B0055723E /* LSImageViewExtension.swift */,
-				85E8CA191F57AFAC0055723E /* LSImageExtension.swift */,
-				85E8CA1B1F57AFBD0055723E /* LSColorExtension.swift */,
-				85E8CA1D1F57AFC90055723E /* LSFontExtension.swift */,
+				85E8CA231F57BE080055723E /* Extensions */,
+				85E8CA2B1F57BE080055723E /* Views */,
+			);
+			path = LSKit;
+			sourceTree = "<group>";
+		};
+		85E8CA231F57BE080055723E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85E8CA241F57BE080055723E /* LSButtonExtension.swift */,
+				85E8CA251F57BE080055723E /* LSColorExtension.swift */,
+				85E8CA261F57BE080055723E /* LSFontExtension.swift */,
+				85E8CA271F57BE080055723E /* LSImageExtension.swift */,
+				85E8CA281F57BE080055723E /* LSImageViewExtension.swift */,
+				85E8CA291F57BE080055723E /* LSLabelExtension.swift */,
+				85E8CA2A1F57BE080055723E /* LSViewExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		85E8CA2B1F57BE080055723E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85E8CA2C1F57BE080055723E /* cells */,
+				85E8CA2D1F57BE080055723E /* views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85E8CA2C1F57BE080055723E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		85E8CA2D1F57BE080055723E /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		886BE96A221B9ED0925EAE87 /* Pods */ = {
@@ -578,15 +602,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E8CA1A1F57AFAC0055723E /* LSImageExtension.swift in Sources */,
-				85E8CA1E1F57AFC90055723E /* LSFontExtension.swift in Sources */,
-				85E8CA121F57AF640055723E /* LSLabelExtension.swift in Sources */,
+				85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */,
+				85E8CA2F1F57BE080055723E /* LSColorExtension.swift in Sources */,
 				85E8C9B41F5668D40055723E /* ViewController.swift in Sources */,
-				85E8CA141F57AF750055723E /* LSButtonExtension.swift in Sources */,
-				85E8CA1C1F57AFBD0055723E /* LSColorExtension.swift in Sources */,
+				85E8CA2E1F57BE080055723E /* LSButtonExtension.swift in Sources */,
+				85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */,
 				85E8C9B21F5668D40055723E /* AppDelegate.swift in Sources */,
-				85E8CA161F57AF870055723E /* LSViewExtension.swift in Sources */,
-				85E8CA181F57AF9B0055723E /* LSImageViewExtension.swift in Sources */,
+				85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */,
+				85E8CA311F57BE080055723E /* LSImageExtension.swift in Sources */,
+				85E8CA301F57BE080055723E /* LSFontExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
