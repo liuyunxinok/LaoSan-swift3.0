@@ -8,9 +8,6 @@
 
 import UIKit
 
-
-let SCRREEN_WIDTH = UIScreen.main.bounds.width
-
 /// 字体类型
 ///
 /// - system: 常规
@@ -31,7 +28,7 @@ extension UIFont {
     /// - Returns: 调整后的字体
     class func ls_systemFont(_ size: CGFloat, type: UIFontType) -> UIFont {
         var resultFontSize = size
-        switch SCRREEN_WIDTH {
+        switch SCREEN_WIDTH {
         case 320:
             resultFontSize *= (320 / 375)
             break

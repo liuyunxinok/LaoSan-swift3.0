@@ -17,7 +17,7 @@ extension UILabel {
     ///   - text: 文本
     ///   - fontSize: 字体大小
     ///   - textColor: 文本颜色
-    convenience init(text: String, fontSize: CGFloat, textColor: UIColor){
+    convenience init(text: String?, fontSize: CGFloat, textColor: UIColor){
         self.init()
         self.text = text
         self.font = UIFont.systemFont(ofSize: fontSize)
