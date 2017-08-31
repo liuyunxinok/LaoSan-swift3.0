@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++262ED14",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "A78D995218184F7FD1FC7A11C809F8D901FB9F96" : 9223372036854775807
+    "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++931A695" : 9223372036854775807,
+    "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++262ED14" : 9223372036854775807,
+    "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++7F86E16" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B4A79044-4422-41BB-AC6E-BC5269D379DB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "A78D995218184F7FD1FC7A11C809F8D901FB9F96" : "studyDemo\/LaoSan\/"
+    "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++931A695" : "studyDemo\/LaoSan\/",
+    "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++262ED14" : "LaoSan-swift3.0\/",
+    "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++7F86E16" : "studyDemo\/LaoSan\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LaoSan",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liuyunxin2014\/LaoSan-swift3.0.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++262ED14"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liuyunxin2014\/LaoSan-swift3.0.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++7F86E16"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liuyunxin2014\/LaoSan-swift3.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A78D995218184F7FD1FC7A11C809F8D901FB9F96+++931A695"
     }
   ]
 }

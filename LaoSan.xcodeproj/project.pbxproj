@@ -16,13 +16,6 @@
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
 		85E8C9C71F5668D40055723E /* LaoSanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9C61F5668D40055723E /* LaoSanTests.swift */; };
 		85E8C9D21F5668D40055723E /* LaoSanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9D11F5668D40055723E /* LaoSanUITests.swift */; };
-		85E8C9F91F566F130055723E /* LSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9F81F566F130055723E /* LSButtonExtension.swift */; };
-		85E8C9FB1F566F260055723E /* LSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9FA1F566F260055723E /* LSColorExtension.swift */; };
-		85E8C9FD1F566F3A0055723E /* LSFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9FC1F566F3A0055723E /* LSFontExtension.swift */; };
-		85E8C9FF1F566F4C0055723E /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9FE1F566F4C0055723E /* LSLabelExtension.swift */; };
-		85E8CA011F566F5C0055723E /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA001F566F5C0055723E /* LSViewExtension.swift */; };
-		85E8CA031F5690930055723E /* LSActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA021F5690930055723E /* LSActionButton.swift */; };
-		85E8CA051F5691A10055723E /* LSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA041F5691A10055723E /* LSStackView.swift */; };
 		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,13 +56,6 @@
 		85E8C9CD1F5668D40055723E /* LaoSanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaoSanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9D11F5668D40055723E /* LaoSanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaoSanUITests.swift; sourceTree = "<group>"; };
 		85E8C9D31F5668D50055723E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85E8C9F81F566F130055723E /* LSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonExtension.swift; sourceTree = "<group>"; };
-		85E8C9FA1F566F260055723E /* LSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSColorExtension.swift; sourceTree = "<group>"; };
-		85E8C9FC1F566F3A0055723E /* LSFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSFontExtension.swift; sourceTree = "<group>"; };
-		85E8C9FE1F566F4C0055723E /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
-		85E8CA001F566F5C0055723E /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
-		85E8CA021F5690930055723E /* LSActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSActionButton.swift; sourceTree = "<group>"; };
-		85E8CA041F5691A10055723E /* LSStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStackView.swift; sourceTree = "<group>"; };
 		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
 		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,14 +114,14 @@
 		85E8C9B01F5668D40055723E /* LaoSan */ = {
 			isa = PBXGroup;
 			children = (
-				85E8C9DF1F5669200055723E /* LSAudioPlayer */,
-				85E8C9E01F5669200055723E /* LSDownLoadManager */,
-				85E8C9E11F5669200055723E /* LSImagePreview */,
-				85E8C9E21F5669200055723E /* LSNetwork */,
-				85E8C9E31F5669200055723E /* LSPhotoPicker */,
-				85E8C9E41F5669200055723E /* LSSandBoxFileManager */,
-				85E8C9E51F5669200055723E /* LSUIKit */,
-				85E8C9E61F5669200055723E /* LSVideoPlayer */,
+				85E8CA081F57AEC30055723E /* LSAudioPlayer */,
+				85E8CA091F57AEC30055723E /* LSDownLoadManager */,
+				85E8CA0A1F57AEC30055723E /* LSImagePreview */,
+				85E8CA0B1F57AEC30055723E /* LSNetwork */,
+				85E8CA0C1F57AEC30055723E /* LSPhotoPicker */,
+				85E8CA0D1F57AEC30055723E /* LSSandBoxFileManager */,
+				85E8CA0E1F57AEC30055723E /* LSUIKit */,
+				85E8CA0F1F57AEC30055723E /* LSVideoPlayer */,
 				85E8C9B11F5668D40055723E /* AppDelegate.swift */,
 				85E8C9B31F5668D40055723E /* ViewController.swift */,
 				85E8C9B51F5668D40055723E /* Main.storyboard */,
@@ -164,147 +150,60 @@
 			path = LaoSanUITests;
 			sourceTree = "<group>";
 		};
-		85E8C9DF1F5669200055723E /* LSAudioPlayer */ = {
+		85E8CA081F57AEC30055723E /* LSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSAudioPlayer;
-			path = ../../studyDemo/LaoSan/LaoSan/LSAudioPlayer;
+			path = LSAudioPlayer;
 			sourceTree = "<group>";
 		};
-		85E8C9E01F5669200055723E /* LSDownLoadManager */ = {
+		85E8CA091F57AEC30055723E /* LSDownLoadManager */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSDownLoadManager;
-			path = ../../studyDemo/LaoSan/LaoSan/LSDownLoadManager;
+			path = LSDownLoadManager;
 			sourceTree = "<group>";
 		};
-		85E8C9E11F5669200055723E /* LSImagePreview */ = {
+		85E8CA0A1F57AEC30055723E /* LSImagePreview */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSImagePreview;
-			path = ../../studyDemo/LaoSan/LaoSan/LSImagePreview;
+			path = LSImagePreview;
 			sourceTree = "<group>";
 		};
-		85E8C9E21F5669200055723E /* LSNetwork */ = {
+		85E8CA0B1F57AEC30055723E /* LSNetwork */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSNetwork;
-			path = ../../studyDemo/LaoSan/LaoSan/LSNetwork;
+			path = LSNetwork;
 			sourceTree = "<group>";
 		};
-		85E8C9E31F5669200055723E /* LSPhotoPicker */ = {
+		85E8CA0C1F57AEC30055723E /* LSPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSPhotoPicker;
-			path = ../../studyDemo/LaoSan/LaoSan/LSPhotoPicker;
+			path = LSPhotoPicker;
 			sourceTree = "<group>";
 		};
-		85E8C9E41F5669200055723E /* LSSandBoxFileManager */ = {
+		85E8CA0D1F57AEC30055723E /* LSSandBoxFileManager */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSSandBoxFileManager;
-			path = ../../studyDemo/LaoSan/LaoSan/LSSandBoxFileManager;
+			path = LSSandBoxFileManager;
 			sourceTree = "<group>";
 		};
-		85E8C9E51F5669200055723E /* LSUIKit */ = {
+		85E8CA0E1F57AEC30055723E /* LSUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				85E8C9EF1F566EED0055723E /* LSUIExtension */,
-				85E8C9F51F566EED0055723E /* LSView */,
 			);
-			name = LSUIKit;
-			path = ../../studyDemo/LaoSan/LaoSan/LSUIKit;
+			path = LSUIKit;
 			sourceTree = "<group>";
 		};
-		85E8C9E61F5669200055723E /* LSVideoPlayer */ = {
+		85E8CA0F1F57AEC30055723E /* LSVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = LSVideoPlayer;
-			path = ../../studyDemo/LaoSan/LaoSan/LSAudioPlayer;
-			sourceTree = "<group>";
-		};
-		85E8C9EF1F566EED0055723E /* LSUIExtension */ = {
-			isa = PBXGroup;
-			children = (
-				85E8C9F01F566EED0055723E /* LSButtonExtension */,
-				85E8C9F11F566EED0055723E /* LSColorExtension */,
-				85E8C9F21F566EED0055723E /* LSFontExtension */,
-				85E8C9F31F566EED0055723E /* LSLabelExtension */,
-				85E8C9F41F566EED0055723E /* LSViewExtension */,
-			);
-			path = LSUIExtension;
-			sourceTree = "<group>";
-		};
-		85E8C9F01F566EED0055723E /* LSButtonExtension */ = {
-			isa = PBXGroup;
-			children = (
-				85E8C9F81F566F130055723E /* LSButtonExtension.swift */,
-			);
-			path = LSButtonExtension;
-			sourceTree = "<group>";
-		};
-		85E8C9F11F566EED0055723E /* LSColorExtension */ = {
-			isa = PBXGroup;
-			children = (
-				85E8C9FA1F566F260055723E /* LSColorExtension.swift */,
-			);
-			path = LSColorExtension;
-			sourceTree = "<group>";
-		};
-		85E8C9F21F566EED0055723E /* LSFontExtension */ = {
-			isa = PBXGroup;
-			children = (
-				85E8C9FC1F566F3A0055723E /* LSFontExtension.swift */,
-			);
-			path = LSFontExtension;
-			sourceTree = "<group>";
-		};
-		85E8C9F31F566EED0055723E /* LSLabelExtension */ = {
-			isa = PBXGroup;
-			children = (
-				85E8C9FE1F566F4C0055723E /* LSLabelExtension.swift */,
-			);
-			path = LSLabelExtension;
-			sourceTree = "<group>";
-		};
-		85E8C9F41F566EED0055723E /* LSViewExtension */ = {
-			isa = PBXGroup;
-			children = (
-				85E8CA001F566F5C0055723E /* LSViewExtension.swift */,
-			);
-			path = LSViewExtension;
-			sourceTree = "<group>";
-		};
-		85E8C9F51F566EED0055723E /* LSView */ = {
-			isa = PBXGroup;
-			children = (
-				85E8C9F61F566EED0055723E /* LSActionButton */,
-				85E8C9F71F566EED0055723E /* LSStackView */,
-			);
-			path = LSView;
-			sourceTree = "<group>";
-		};
-		85E8C9F61F566EED0055723E /* LSActionButton */ = {
-			isa = PBXGroup;
-			children = (
-				85E8CA021F5690930055723E /* LSActionButton.swift */,
-			);
-			path = LSActionButton;
-			sourceTree = "<group>";
-		};
-		85E8C9F71F566EED0055723E /* LSStackView */ = {
-			isa = PBXGroup;
-			children = (
-				85E8CA041F5691A10055723E /* LSStackView.swift */,
-			);
-			path = LSStackView;
+			path = LSVideoPlayer;
 			sourceTree = "<group>";
 		};
 		886BE96A221B9ED0925EAE87 /* Pods */ = {
@@ -650,15 +549,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E8CA051F5691A10055723E /* LSStackView.swift in Sources */,
-				85E8CA031F5690930055723E /* LSActionButton.swift in Sources */,
-				85E8C9FB1F566F260055723E /* LSColorExtension.swift in Sources */,
 				85E8C9B41F5668D40055723E /* ViewController.swift in Sources */,
-				85E8C9F91F566F130055723E /* LSButtonExtension.swift in Sources */,
-				85E8CA011F566F5C0055723E /* LSViewExtension.swift in Sources */,
-				85E8C9FF1F566F4C0055723E /* LSLabelExtension.swift in Sources */,
 				85E8C9B21F5668D40055723E /* AppDelegate.swift in Sources */,
-				85E8C9FD1F566F3A0055723E /* LSFontExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
