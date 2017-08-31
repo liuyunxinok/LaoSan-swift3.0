@@ -23,6 +23,14 @@
 		85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA281F57BE080055723E /* LSImageViewExtension.swift */; };
 		85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA291F57BE080055723E /* LSLabelExtension.swift */; };
 		85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA2A1F57BE080055723E /* LSViewExtension.swift */; };
+		85E8CA361F57BF8F0055723E /* LSBaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA351F57BF8F0055723E /* LSBaseTableCell.swift */; };
+		85E8CA381F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA371F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift */; };
+		85E8CA3A1F57BFE60055723E /* LSLeftTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA391F57BFE60055723E /* LSLeftTitleCell.swift */; };
+		85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA3B1F57C00A0055723E /* LSleftImageTitleCell.swift */; };
+		85E8CA3E1F57C0A60055723E /* LSTextFiledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA3D1F57C0A60055723E /* LSTextFiledCell.swift */; };
+		85E8CA401F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA3F1F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift */; };
+		85E8CA421F57C13F0055723E /* LSTopBottomTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA411F57C13F0055723E /* LSTopBottomTitleCell.swift */; };
+		85E8CA441F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA431F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift */; };
 		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +78,14 @@
 		85E8CA281F57BE080055723E /* LSImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageViewExtension.swift; sourceTree = "<group>"; };
 		85E8CA291F57BE080055723E /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
 		85E8CA2A1F57BE080055723E /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
+		85E8CA351F57BF8F0055723E /* LSBaseTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseTableCell.swift; sourceTree = "<group>"; };
+		85E8CA371F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLeftTitleRightTitleCell.swift; sourceTree = "<group>"; };
+		85E8CA391F57BFE60055723E /* LSLeftTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLeftTitleCell.swift; sourceTree = "<group>"; };
+		85E8CA3B1F57C00A0055723E /* LSleftImageTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSleftImageTitleCell.swift; sourceTree = "<group>"; };
+		85E8CA3D1F57C0A60055723E /* LSTextFiledCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTextFiledCell.swift; sourceTree = "<group>"; };
+		85E8CA3F1F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLeftTitleRightSwitchCell.swift; sourceTree = "<group>"; };
+		85E8CA411F57C13F0055723E /* LSTopBottomTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTopBottomTitleCell.swift; sourceTree = "<group>"; };
+		85E8CA431F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTopTitleBottomTextFiledCell.swift; sourceTree = "<group>"; };
 		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
 		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +264,14 @@
 		85E8CA2C1F57BE080055723E /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				85E8CA351F57BF8F0055723E /* LSBaseTableCell.swift */,
+				85E8CA371F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift */,
+				85E8CA391F57BFE60055723E /* LSLeftTitleCell.swift */,
+				85E8CA3B1F57C00A0055723E /* LSleftImageTitleCell.swift */,
+				85E8CA3D1F57C0A60055723E /* LSTextFiledCell.swift */,
+				85E8CA3F1F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift */,
+				85E8CA411F57C13F0055723E /* LSTopBottomTitleCell.swift */,
+				85E8CA431F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -602,14 +626,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E8CA3A1F57BFE60055723E /* LSLeftTitleCell.swift in Sources */,
 				85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */,
 				85E8CA2F1F57BE080055723E /* LSColorExtension.swift in Sources */,
+				85E8CA361F57BF8F0055723E /* LSBaseTableCell.swift in Sources */,
 				85E8C9B41F5668D40055723E /* ViewController.swift in Sources */,
+				85E8CA441F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift in Sources */,
 				85E8CA2E1F57BE080055723E /* LSButtonExtension.swift in Sources */,
 				85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */,
 				85E8C9B21F5668D40055723E /* AppDelegate.swift in Sources */,
+				85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */,
+				85E8CA401F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift in Sources */,
 				85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */,
+				85E8CA381F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift in Sources */,
 				85E8CA311F57BE080055723E /* LSImageExtension.swift in Sources */,
+				85E8CA3E1F57C0A60055723E /* LSTextFiledCell.swift in Sources */,
+				85E8CA421F57C13F0055723E /* LSTopBottomTitleCell.swift in Sources */,
 				85E8CA301F57BE080055723E /* LSFontExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
