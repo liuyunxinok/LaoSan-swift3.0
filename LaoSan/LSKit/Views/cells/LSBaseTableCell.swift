@@ -45,6 +45,11 @@ class LSBaseTableCell: UITableViewCell {
     }
     
     
+    /// 加载数据 需子类重写
+    ///
+    /// - Parameter data: 数据
+    public func loadTableData(data: LSTabelViewData) -> Void {}
+    
     /// 创建子类视图 需子类重写
     public func creatSubCellUI() -> Void {}
     

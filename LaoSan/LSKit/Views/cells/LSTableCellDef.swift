@@ -15,5 +15,3 @@ let ls_cellDetailTitleFontSize: CGFloat = 13
 let ls_cellTitleColor: UIColor = .black
 let ls_cellSubTitleColor: UIColor = .gray
 let ls_cellDetailTitleColor: UIColor = .darkGray
-
-		

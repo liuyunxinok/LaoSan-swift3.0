@@ -28,6 +28,10 @@ class LSTopTitleBottomTextFiledCell: LSBaseTableCell {
         self.contentView.addSubview(self.textField)
     }
     
+    override func loadTableData(data: LSTabelViewData) {
+        self.titleLabel.text = data.titleString
+    }
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         

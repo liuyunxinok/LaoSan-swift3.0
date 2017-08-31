@@ -24,10 +24,20 @@ class LSLeftTitleRightTitleCell: LSBaseTableCell {
     }()
     
     
+    /// 搭建UI
     override func creatSubCellUI() {
         self.contentView.addSubview(self.leftLabel)
         self.contentView.addSubview(self.rightLabel)
     }
+    
+    /// 加载数据
+    ///
+    /// - Parameter data: data
+    override func loadTableData(data: LSTabelViewData) {
+        self.leftLabel.text = data.titleString
+        self.rightLabel.text = data.rightTitleString
+    }
+    
     
     override func layoutSubviews() {
         super.layoutSubviews()

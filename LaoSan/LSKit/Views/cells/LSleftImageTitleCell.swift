@@ -26,6 +26,11 @@ class LSleftImageTitleCell: LSBaseTableCell {
         self.contentView.addSubview(self.titleLabel)
     }
     
+    override func loadTableData(data: LSTabelViewData) {
+        self.smallImageView.image = UIImage(named: data.imageName ?? "")
+        self.titleLabel.text = data.titleString
+    }
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         self.smallImageView.snp.makeConstraints { (make) in

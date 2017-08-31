@@ -34,6 +34,7 @@
 		85E8CA4D1F57C8F30055723E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E8CA4C1F57C8F30055723E /* Info.plist */; };
 		85E8CA4F1F57DC8D0055723E /* LSPch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA4E1F57DC8D0055723E /* LSPch.swift */; };
 		85E8CA511F57EA4B0055723E /* LSTableCellDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA501F57EA4B0055723E /* LSTableCellDef.swift */; };
+		85E8CA531F580C5F0055723E /* LSTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA521F580C5F0055723E /* LSTableViewData.swift */; };
 		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		85E8CA4C1F57C8F30055723E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85E8CA4E1F57DC8D0055723E /* LSPch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPch.swift; sourceTree = "<group>"; };
 		85E8CA501F57EA4B0055723E /* LSTableCellDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTableCellDef.swift; sourceTree = "<group>"; };
+		85E8CA521F580C5F0055723E /* LSTableViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTableViewData.swift; sourceTree = "<group>"; };
 		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
 		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +280,7 @@
 				85E8CA411F57C13F0055723E /* LSTopBottomTitleCell.swift */,
 				85E8CA431F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift */,
 				85E8CA501F57EA4B0055723E /* LSTableCellDef.swift */,
+				85E8CA521F580C5F0055723E /* LSTableViewData.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -654,6 +657,7 @@
 				85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */,
 				85E8CA491F57C7D10055723E /* AppDelegate.swift in Sources */,
 				85E8CA4B1F57C7D10055723E /* ViewController.swift in Sources */,
+				85E8CA531F580C5F0055723E /* LSTableViewData.swift in Sources */,
 				85E8CA401F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift in Sources */,
 				85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */,
 				85E8CA381F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift in Sources */,

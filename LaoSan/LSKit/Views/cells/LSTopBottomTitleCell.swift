@@ -26,6 +26,11 @@ class LSTopBottomTitleCell: LSBaseTableCell {
         self.contentView.addSubview(self.topLabel)
         self.contentView.addSubview(self.bottomLbale)
     }
+    
+    override func loadTableData(data: LSTabelViewData) {
+        self.topLabel.text = data.titleString
+        self.bottomLbale.text = data.bottomTitleString
+    }    
 
     override func layoutSubviews() {
         super.layoutSubviews()

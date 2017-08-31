@@ -21,6 +21,10 @@ class LSLeftTitleCell: LSBaseTableCell {
         self.contentView.addSubview(self.titleLabel)
     }
     
+    override func loadTableData(data: LSTabelViewData) {
+        self.titleLabel.text = data.titleString
+    }
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         self.titleLabel.snp.makeConstraints { (make) in

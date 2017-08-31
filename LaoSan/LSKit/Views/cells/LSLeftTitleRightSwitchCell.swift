@@ -33,6 +33,10 @@ class LSLeftTitleRightSwitchCell: LSBaseTableCell {
         self.contentView.addSubview(self.switchButton)
     }
     
+    override func loadTableData(data: LSTabelViewData) {
+        self.titleLabel.text = data.titleString
+    }
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         self.titleLabel.snp.makeConstraints { (make) in
