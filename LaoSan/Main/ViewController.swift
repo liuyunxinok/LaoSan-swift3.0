@@ -58,7 +58,33 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        switch indexPath.item {
+        case 0:
+            //LSKit
+            break
+        case 1:
+            //音频播放
+            break
+        case 2:
+            //视频播放
+            break
+        case 3:
+            //文件下载
+            break
+        case 4:
+            //获取相册
+            let albumListVC = LSAlbumListViewController()
+            self.present(UINavigationController(rootViewController: albumListVC), animated: true, completion: nil)
+            break
+        case 5:
+            //沙盒文件
+            break
+        case 6:
+            //图片预览
+            break
+        default: break
             
+        }
     }
     
 }

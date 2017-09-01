@@ -7,7 +7,12 @@
 //
 
 import Foundation
+//布局
 import SnapKit
+//photo
+import Photos
+import AssetsLibrary
+
 
 
 /// 当前屏幕的宽高
