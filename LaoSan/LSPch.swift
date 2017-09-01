@@ -19,10 +19,10 @@ let WIDTH_SCALE = SCREEN_WIDTH / 375
 let HEIGHT_SCALE = SCREEN_HEIGHT / 667
 
 /// 适配之后的宽高
-func WIDTH_SCALE(width: CGFloat) -> CGFloat {
+func WIDTH_SCALE(_ width: CGFloat) -> CGFloat {
     return width * WIDTH_SCALE
 }
-func HEIGHT_SCALE(height: CGFloat) -> CGFloat {
+func HEIGHT_SCALE(_ height: CGFloat) -> CGFloat {
     return height * HEIGHT_SCALE
 }
 /// leftMargin - rightMargin

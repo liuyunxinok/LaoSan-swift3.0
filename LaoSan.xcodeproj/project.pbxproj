@@ -35,6 +35,12 @@
 		85E8CA4F1F57DC8D0055723E /* LSPch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA4E1F57DC8D0055723E /* LSPch.swift */; };
 		85E8CA511F57EA4B0055723E /* LSTableCellDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA501F57EA4B0055723E /* LSTableCellDef.swift */; };
 		85E8CA531F580C5F0055723E /* LSTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA521F580C5F0055723E /* LSTableViewData.swift */; };
+		85E8CA561F581CEA0055723E /* LSMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA551F581CEA0055723E /* LSMenuCollectionViewCell.swift */; };
+		85E8CA5B1F5907540055723E /* LSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA5A1F5907540055723E /* LSBaseViewController.swift */; };
+		85E8CA5D1F59078B0055723E /* LSBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA5C1F59078B0055723E /* LSBaseNavigationController.swift */; };
+		85E8CA5F1F5907B70055723E /* LSBaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA5E1F5907B70055723E /* LSBaseTabViewController.swift */; };
+		85E8CA611F5907D90055723E /* LSBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA601F5907D90055723E /* LSBaseTableViewController.swift */; };
+		85E8CA631F59085C0055723E /* LSBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA621F59085C0055723E /* LSBaseWebViewController.swift */; };
 		C7D8073E734ED85A85A0D4D1 /* Pods_LaoSanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +99,12 @@
 		85E8CA4E1F57DC8D0055723E /* LSPch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPch.swift; sourceTree = "<group>"; };
 		85E8CA501F57EA4B0055723E /* LSTableCellDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTableCellDef.swift; sourceTree = "<group>"; };
 		85E8CA521F580C5F0055723E /* LSTableViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTableViewData.swift; sourceTree = "<group>"; };
+		85E8CA551F581CEA0055723E /* LSMenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		85E8CA5A1F5907540055723E /* LSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseViewController.swift; sourceTree = "<group>"; };
+		85E8CA5C1F59078B0055723E /* LSBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseNavigationController.swift; sourceTree = "<group>"; };
+		85E8CA5E1F5907B70055723E /* LSBaseTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseTabViewController.swift; sourceTree = "<group>"; };
+		85E8CA601F5907D90055723E /* LSBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseTableViewController.swift; sourceTree = "<group>"; };
+		85E8CA621F59085C0055723E /* LSBaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseWebViewController.swift; sourceTree = "<group>"; };
 		A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF2EA951A736188215E96C /* Pods-LaoSan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.release.xcconfig"; sourceTree = "<group>"; };
 		FEF5689CF5DC7D41B59304C7 /* Pods_LaoSanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,6 +251,8 @@
 		85E8CA221F57BE080055723E /* LSKit */ = {
 			isa = PBXGroup;
 			children = (
+				85E8CA581F5905980055723E /* Controllers */,
+				85E8CA591F5905990055723E /* Models */,
 				85E8CA231F57BE080055723E /* Extensions */,
 				85E8CA2B1F57BE080055723E /* Views */,
 			);
@@ -295,10 +309,46 @@
 		85E8CA451F57C7D10055723E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				85E8CA571F5905370055723E /* Controller */,
+				85E8CA541F581CB80055723E /* View */,
 				85E8CA461F57C7D10055723E /* AppDelegate.swift */,
 				85E8CA481F57C7D10055723E /* ViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		85E8CA541F581CB80055723E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85E8CA551F581CEA0055723E /* LSMenuCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85E8CA571F5905370055723E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85E8CA581F5905980055723E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85E8CA5A1F5907540055723E /* LSBaseViewController.swift */,
+				85E8CA5C1F59078B0055723E /* LSBaseNavigationController.swift */,
+				85E8CA5E1F5907B70055723E /* LSBaseTabViewController.swift */,
+				85E8CA601F5907D90055723E /* LSBaseTableViewController.swift */,
+				85E8CA621F59085C0055723E /* LSBaseWebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		85E8CA591F5905990055723E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		886BE96A221B9ED0925EAE87 /* Pods */ = {
@@ -645,16 +695,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E8CA5F1F5907B70055723E /* LSBaseTabViewController.swift in Sources */,
 				85E8CA3A1F57BFE60055723E /* LSLeftTitleCell.swift in Sources */,
 				85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */,
 				85E8CA2F1F57BE080055723E /* LSColorExtension.swift in Sources */,
 				85E8CA361F57BF8F0055723E /* LSBaseTableCell.swift in Sources */,
+				85E8CA5B1F5907540055723E /* LSBaseViewController.swift in Sources */,
 				85E8CA511F57EA4B0055723E /* LSTableCellDef.swift in Sources */,
 				85E8CA4F1F57DC8D0055723E /* LSPch.swift in Sources */,
+				85E8CA561F581CEA0055723E /* LSMenuCollectionViewCell.swift in Sources */,
 				85E8CA441F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift in Sources */,
 				85E8CA2E1F57BE080055723E /* LSButtonExtension.swift in Sources */,
 				85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */,
 				85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */,
+				85E8CA611F5907D90055723E /* LSBaseTableViewController.swift in Sources */,
 				85E8CA491F57C7D10055723E /* AppDelegate.swift in Sources */,
 				85E8CA4B1F57C7D10055723E /* ViewController.swift in Sources */,
 				85E8CA531F580C5F0055723E /* LSTableViewData.swift in Sources */,
@@ -662,9 +716,11 @@
 				85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */,
 				85E8CA381F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift in Sources */,
 				85E8CA311F57BE080055723E /* LSImageExtension.swift in Sources */,
+				85E8CA631F59085C0055723E /* LSBaseWebViewController.swift in Sources */,
 				85E8CA3E1F57C0A60055723E /* LSTextFiledCell.swift in Sources */,
 				85E8CA421F57C13F0055723E /* LSTopBottomTitleCell.swift in Sources */,
 				85E8CA301F57BE080055723E /* LSFontExtension.swift in Sources */,
+				85E8CA5D1F59078B0055723E /* LSBaseNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    lazy var menuCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.itemSize = CGSize(width: WIDTH_SCALE(300), height: HEIGHT_SCALE(60))
+        layout.minimumLineSpacing = 10
+        layout.minimumInteritemSpacing = 10
+        let collectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: layout)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(LSMenuCollectionViewCell.classForCoder(), forCellWithReuseIdentifier: NSStringFromClass(LSMenuCollectionViewCell.classForCoder()))
+        collectionView.backgroundColor = .white
+        return collectionView
+    }()
+    
+    var dataSoucre = ["LSKit","音频播放","视频播放","文件下载","获取相册","沙盒文件","图片预览"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.addSubview(self.menuCollectionView)
+        self.title = "LS工具"
     }
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -23,3 +40,25 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.dataSoucre.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell: LSMenuCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: NSStringFromClass(LSMenuCollectionViewCell.classForCoder()), for: indexPath) as! LSMenuCollectionViewCell
+        cell.titleLabel.text = self.dataSoucre[indexPath.item]
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+            
+    }
+    
+}
