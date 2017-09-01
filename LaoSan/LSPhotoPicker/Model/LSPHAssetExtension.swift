@@ -18,12 +18,12 @@ struct runTimeKey {
 
 extension PHAsset{
     
-    var isSelected: Bool {
+    var isSelected: Bool? {
         set{
-            objc_setAssociatedObject(self, runTimeKey.isSelectedKey, NSNumber(booleanLiteral: newValue), .OBJC_ASSOCIATION_ASSIGN)
+            objc_setAssociatedObject(self, runTimeKey.isSelectedKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
         }
         get{
-            return objc_getAssociatedObject(self,runTimeKey.isSelectedKey) == nil ? false : (objc_getAssociatedObject(self,runTimeKey.isSelectedKey) as! NSNumber).boolValue
+            return objc_getAssociatedObject(self,runTimeKey.isSelectedKey) as? Bool
         }
     }
     var thumbImage: UIImage? {
@@ -42,12 +42,12 @@ extension PHAsset{
             return objc_getAssociatedObject(self, runTimeKey.imagePathKey) as? String
         }
     }
-    var index: Int {
+    var index: Int? {
         set{
-            objc_setAssociatedObject(self, runTimeKey.indexKey, NSNumber(integerLiteral: newValue), .OBJC_ASSOCIATION_ASSIGN)
+            objc_setAssociatedObject(self, runTimeKey.indexKey, newValue, .OBJC_ASSOCIATION_ASSIGN)
         }
         get{
-            return objc_getAssociatedObject(self, runTimeKey.indexKey) == nil ? 0 : (objc_getAssociatedObject(self, runTimeKey.indexKey) as! NSNumber).intValue
+            return objc_getAssociatedObject(self, runTimeKey.indexKey) as? Int
         }
     }
     

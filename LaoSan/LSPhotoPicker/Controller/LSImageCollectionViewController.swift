@@ -23,7 +23,7 @@ class LSImageCollectionViewController: UICollectionViewController {
     
     /// 图片的可选数量,default = 9
     var maxSelectedNum: Int = 9
-    var rightItemTitle: String?
+    var rightItemTitle: String = ""
     
     /// 选中的数组
     var selectArray: [LSImageModel] = []
@@ -43,7 +43,6 @@ class LSImageCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         self.title = "相机胶卷"
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: self.rightItemTitle, style: .done, target: self, action: #selector(rightBarButtonItemDidClick))
-        self.changeRightItemState()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -72,11 +71,11 @@ class LSImageCollectionViewController: UICollectionViewController {
     func changeRightItemState() -> Void {
         let imageCount = self.selectArray.count
         if imageCount > 0 {
-            self.navigationItem.rightBarButtonItem?.title = String(format: "发送(%d)", imageCount)
-            self.navigationItem.rightBarButtonItem?.isEnabled = true
+            self.navigationItem.rightBarButtonItem!.title = String(format: "发送(%d)", imageCount)
+            self.navigationItem.rightBarButtonItem!.isEnabled = true
         }else{
-            self.navigationItem.rightBarButtonItem?.title = self.rightItemTitle
-            self.navigationItem.rightBarButtonItem?.isEnabled = false
+            self.navigationItem.rightBarButtonItem!.title = self.rightItemTitle
+            self.navigationItem.rightBarButtonItem!.isEnabled = false
         }
     }
     
@@ -130,7 +129,6 @@ class LSImageCollectionViewController: UICollectionViewController {
         return CGSize(width: itemWidth, height: itemWidth)
     }
     
-    
     // MARK: UICollectionViewDelegate
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.item == 0 {
@@ -150,14 +148,14 @@ class LSImageCollectionViewController: UICollectionViewController {
             self.present(imagePickerVC, animated: true, completion: nil)
         }else{
             let cell: LSImageCollectionViewCell = collectionView.cellForItem(at: indexPath) as! LSImageCollectionViewCell
-            if (cell.asset?.isSelected)! {
+            if cell.asset?.isSelected ?? false {
                 for (index, value) in self.selectArray.enumerated() {
                     if value.identifier == cell.asset?.localIdentifier {
                         self.selectArray.remove(at: index)
+                        break
                     }
                 }
             }else {
-                
                 if self.selectArray.count >= self.maxSelectedNum {
                     let alert =  UIAlertController(title: nil, message: String(format: "最多只能选择%d张图片", self.maxSelectedNum), preferredStyle: .alert)
                     let actionButton = UIAlertAction(title: "确定", style: .destructive, handler: { (UIAlertAction) in
@@ -174,7 +172,8 @@ class LSImageCollectionViewController: UICollectionViewController {
                 self.selectArray.append(imageModel)
                 
             }
-            for (index, value) in self.selectArray.enumerated() {
+            for (var index, value) in self.selectArray.enumerated() {
+                index = index + 1
                 value.index = index
             }
             self.changeCurrentSelectedItemIndex(cell: cell)
@@ -185,8 +184,11 @@ class LSImageCollectionViewController: UICollectionViewController {
         self.collectionView?.isUserInteractionEnabled = false
         cell.selectImageView.isHidden = !cell.selectImageView.isHidden
         cell.indexLabel.isHidden = !cell.indexLabel.isHidden
-        cell.asset?.isSelected = !(cell.asset?.isSelected)!
+        cell.asset?.isSelected = (cell.asset?.isSelected ?? false) ? false : true
         cell.indexLabel.text = String(format: "%d", self.selectArray.count)
+        let indexPath = self.collectionView?.indexPath(for: cell)
+        let asset = self.assetResult?[(indexPath?.item)!]
+        asset?.isSelected = cell.asset?.isSelected
         self.changeRightItemState()
         cell.updateImageIsSelected(isSelected: !cell.selectImageView.isHidden) { (isFinish) in
             self.collectionView?.isUserInteractionEnabled = true

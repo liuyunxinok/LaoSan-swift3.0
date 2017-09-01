@@ -38,7 +38,7 @@ class LSImageCollectionViewCell: UICollectionViewCell {
     
     var asset: PHAsset? {
         didSet{
-            if (asset?.isSelected)! {
+            if asset?.isSelected ?? false {
                 self.selectImageView.isHidden = false
                 self.indexLabel.isHidden = false
             }else{
