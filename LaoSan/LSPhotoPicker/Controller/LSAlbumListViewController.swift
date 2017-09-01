@@ -21,7 +21,7 @@ class LSAlbumListViewController: UITableViewController {
         self.tableView.rowHeight = 80
         self.title = "相册"
         self.tableView.register(LSAlbumListCell.classForCoder(), forCellReuseIdentifier: NSStringFromClass(LSAlbumListCell.classForCoder()))
-        self.navigationItem.leftBarButtonItem? = UIBarButtonItem(title: "取消", style: .plain, target: self, action: #selector(LSAlbumListViewController.cancleButtonDidClick))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "取消", style: .plain, target: self, action: #selector(LSAlbumListViewController.cancleButtonDidClick))
         self.tableView.tableFooterView = UIView()
         self.loadAlbum()
         if self.dataSource.count > 0 {

@@ -78,6 +78,9 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             break
         case 5:
             //沙盒文件
+            let sandBoxFileVC = LSFileListViewController()
+            sandBoxFileVC.title = "sandBox"
+            navigationController?.pushViewController(sandBoxFileVC, animated: true)
             break
         case 6:
             //图片预览
