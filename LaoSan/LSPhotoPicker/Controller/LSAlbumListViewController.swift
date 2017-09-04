@@ -92,7 +92,7 @@ extension LSAlbumListViewController {
             cell.albumNameLabel.text = "相机胶卷"
             cell.albumDetailLabel.text = String(format: "%d", fetchResult.count)
         }else {
-            let collection: PHAssetCollection = (fetchResult[indexPath.row] as? PHAssetCollection)!
+            let collection: PHAssetCollection = fetchResult[indexPath.row] as! PHAssetCollection
             cell.albumNameLabel.text = collection.localizedTitle
             if collection.isKind(of: PHAssetCollection.classForCoder()) {
                 let assetFetchResult = PHAsset.fetchAssets(in: collection , options: nil)
@@ -103,7 +103,7 @@ extension LSAlbumListViewController {
         }
         if fetchResult.count > 0 {
             let asset = fetchResult[0]
-            PHImageManager.default().requestImage(for: asset as! PHAsset, targetSize: CGSize(width: 120, height: 120), contentMode: .aspectFill, options: nil, resultHandler: { (result, info) in
+            PHImageManager.default().requestImage(for: asset as! PHAsset , targetSize: CGSize(width: 120, height: 120), contentMode: .aspectFill, options: nil, resultHandler: { (result, info) in
                 DispatchQueue.global().async {
                     let image = result?.imageCompressForTargetSize(size: CGSize(width: 120, height: 120))
                     DispatchQueue.main.async {

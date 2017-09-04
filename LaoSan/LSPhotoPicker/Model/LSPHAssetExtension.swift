@@ -10,10 +10,10 @@ import UIKit
 import Photos
 
 struct runTimeKey {
-    static let isSelectedKey = "tcz_isSelectedKey"
-    static let thumbImageKey = "tcz_thumbImageKey"
-    static let imagePathKey = "tcz_imagePathKey"
-    static let indexKey = "tcz_indexkey"
+    static let isSelectedKey = "ls_isSelectedKey"
+    static let thumbImageKey = "ls_thumbImageKey"
+    static let imagePathKey = "ls_imagePathKey"
+    static let indexKey = "ls_indexkey"
 }
 
 extension PHAsset{

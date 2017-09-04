@@ -9,18 +9,21 @@
 /* Begin PBXBuildFile section */
 		09623517820FC931CA79EC8F /* Pods_LaoSanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8A66DD40449D1AB99EFBF /* Pods_LaoSanTests.framework */; };
 		1D8D88B091DB953DD4526185 /* Pods_LaoSan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0426CC97C17D0B8C6FC558 /* Pods_LaoSan.framework */; };
+		8581F3CF1F5D2C1000180100 /* LSKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3CE1F5D2C1000180100 /* LSKitViewController.swift */; };
+		8581F3D91F5D50F900180100 /* LSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D21F5D50F800180100 /* LSButtonExtension.swift */; };
+		8581F3DA1F5D50F900180100 /* LSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D31F5D50F800180100 /* LSColorExtension.swift */; };
+		8581F3DB1F5D50F900180100 /* LSFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D41F5D50F800180100 /* LSFontExtension.swift */; };
+		8581F3DC1F5D50F900180100 /* LSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D51F5D50F800180100 /* LSImageExtension.swift */; };
+		8581F3DD1F5D50F900180100 /* LSImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D61F5D50F800180100 /* LSImageViewExtension.swift */; };
+		8581F3DE1F5D50F900180100 /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D71F5D50F900180100 /* LSLabelExtension.swift */; };
+		8581F3DF1F5D50F900180100 /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3D81F5D50F900180100 /* LSViewExtension.swift */; };
+		8581F3E11F5D512000180100 /* LSArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3E01F5D512000180100 /* LSArrayExtension.swift */; };
+		8581F3E31F5D513300180100 /* LSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3E21F5D513300180100 /* LSStringExtension.swift */; };
 		85E8C9B71F5668D40055723E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B51F5668D40055723E /* Main.storyboard */; };
 		85E8C9B91F5668D40055723E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B81F5668D40055723E /* Assets.xcassets */; };
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
 		85E8C9C71F5668D40055723E /* LaoSanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9C61F5668D40055723E /* LaoSanTests.swift */; };
 		85E8C9D21F5668D40055723E /* LaoSanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C9D11F5668D40055723E /* LaoSanUITests.swift */; };
-		85E8CA2E1F57BE080055723E /* LSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA241F57BE080055723E /* LSButtonExtension.swift */; };
-		85E8CA2F1F57BE080055723E /* LSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA251F57BE080055723E /* LSColorExtension.swift */; };
-		85E8CA301F57BE080055723E /* LSFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA261F57BE080055723E /* LSFontExtension.swift */; };
-		85E8CA311F57BE080055723E /* LSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA271F57BE080055723E /* LSImageExtension.swift */; };
-		85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA281F57BE080055723E /* LSImageViewExtension.swift */; };
-		85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA291F57BE080055723E /* LSLabelExtension.swift */; };
-		85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA2A1F57BE080055723E /* LSViewExtension.swift */; };
 		85E8CA361F57BF8F0055723E /* LSBaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA351F57BF8F0055723E /* LSBaseTableCell.swift */; };
 		85E8CA381F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA371F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift */; };
 		85E8CA3A1F57BFE60055723E /* LSLeftTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8CA391F57BFE60055723E /* LSLeftTitleCell.swift */; };
@@ -120,6 +123,16 @@
 		5B0426CC97C17D0B8C6FC558 /* Pods_LaoSan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaoSan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B983B0E52DA88BDCB60F41A /* Pods-LaoSan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSan/Pods-LaoSan.debug.xcconfig"; sourceTree = "<group>"; };
 		7FEF276868F2CACFA9C4108F /* Pods-LaoSanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaoSanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaoSanTests/Pods-LaoSanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8581F3CE1F5D2C1000180100 /* LSKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSKitViewController.swift; sourceTree = "<group>"; };
+		8581F3D21F5D50F800180100 /* LSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonExtension.swift; sourceTree = "<group>"; };
+		8581F3D31F5D50F800180100 /* LSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSColorExtension.swift; sourceTree = "<group>"; };
+		8581F3D41F5D50F800180100 /* LSFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSFontExtension.swift; sourceTree = "<group>"; };
+		8581F3D51F5D50F800180100 /* LSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageExtension.swift; sourceTree = "<group>"; };
+		8581F3D61F5D50F800180100 /* LSImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageViewExtension.swift; sourceTree = "<group>"; };
+		8581F3D71F5D50F900180100 /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
+		8581F3D81F5D50F900180100 /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
+		8581F3E01F5D512000180100 /* LSArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSArrayExtension.swift; sourceTree = "<group>"; };
+		8581F3E21F5D513300180100 /* LSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStringExtension.swift; sourceTree = "<group>"; };
 		85E8C9AE1F5668D40055723E /* LaoSan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaoSan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9B61F5668D40055723E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E8C9B81F5668D40055723E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,13 +143,6 @@
 		85E8C9CD1F5668D40055723E /* LaoSanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaoSanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9D11F5668D40055723E /* LaoSanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaoSanUITests.swift; sourceTree = "<group>"; };
 		85E8C9D31F5668D50055723E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85E8CA241F57BE080055723E /* LSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSButtonExtension.swift; sourceTree = "<group>"; };
-		85E8CA251F57BE080055723E /* LSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSColorExtension.swift; sourceTree = "<group>"; };
-		85E8CA261F57BE080055723E /* LSFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSFontExtension.swift; sourceTree = "<group>"; };
-		85E8CA271F57BE080055723E /* LSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageExtension.swift; sourceTree = "<group>"; };
-		85E8CA281F57BE080055723E /* LSImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSImageViewExtension.swift; sourceTree = "<group>"; };
-		85E8CA291F57BE080055723E /* LSLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLabelExtension.swift; sourceTree = "<group>"; };
-		85E8CA2A1F57BE080055723E /* LSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewExtension.swift; sourceTree = "<group>"; };
 		85E8CA351F57BF8F0055723E /* LSBaseTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseTableCell.swift; sourceTree = "<group>"; };
 		85E8CA371F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLeftTitleRightTitleCell.swift; sourceTree = "<group>"; };
 		85E8CA391F57BFE60055723E /* LSLeftTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLeftTitleCell.swift; sourceTree = "<group>"; };
@@ -242,6 +248,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8581F3D01F5D50F800180100 /* NSExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8581F3E01F5D512000180100 /* LSArrayExtension.swift */,
+				8581F3E21F5D513300180100 /* LSStringExtension.swift */,
+			);
+			path = NSExtensions;
+			sourceTree = "<group>";
+		};
+		8581F3D11F5D50F800180100 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8581F3D21F5D50F800180100 /* LSButtonExtension.swift */,
+				8581F3D31F5D50F800180100 /* LSColorExtension.swift */,
+				8581F3D41F5D50F800180100 /* LSFontExtension.swift */,
+				8581F3D51F5D50F800180100 /* LSImageExtension.swift */,
+				8581F3D61F5D50F800180100 /* LSImageViewExtension.swift */,
+				8581F3D71F5D50F900180100 /* LSLabelExtension.swift */,
+				8581F3D81F5D50F900180100 /* LSViewExtension.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
 		85E8C9A51F5668D40055723E = {
 			isa = PBXGroup;
 			children = (
@@ -375,13 +404,8 @@
 		85E8CA231F57BE080055723E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				85E8CA241F57BE080055723E /* LSButtonExtension.swift */,
-				85E8CA251F57BE080055723E /* LSColorExtension.swift */,
-				85E8CA261F57BE080055723E /* LSFontExtension.swift */,
-				85E8CA271F57BE080055723E /* LSImageExtension.swift */,
-				85E8CA281F57BE080055723E /* LSImageViewExtension.swift */,
-				85E8CA291F57BE080055723E /* LSLabelExtension.swift */,
-				85E8CA2A1F57BE080055723E /* LSViewExtension.swift */,
+				8581F3D01F5D50F800180100 /* NSExtensions */,
+				8581F3D11F5D50F800180100 /* UIExtensions */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -453,6 +477,7 @@
 				85E8CA5E1F5907B70055723E /* LSBaseTabViewController.swift */,
 				85E8CA601F5907D90055723E /* LSBaseTableViewController.swift */,
 				85E8CA621F59085C0055723E /* LSBaseWebViewController.swift */,
+				8581F3CE1F5D2C1000180100 /* LSKitViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -955,43 +980,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8581F3CF1F5D2C1000180100 /* LSKitViewController.swift in Sources */,
 				85E8CA5F1F5907B70055723E /* LSBaseTabViewController.swift in Sources */,
 				85E8CA3A1F57BFE60055723E /* LSLeftTitleCell.swift in Sources */,
 				85E8CAE11F593A6D0055723E /* LSFileListViewController.swift in Sources */,
-				85E8CA321F57BE080055723E /* LSImageViewExtension.swift in Sources */,
-				85E8CA2F1F57BE080055723E /* LSColorExtension.swift in Sources */,
 				85E8CAE51F593BCD0055723E /* LSFileManager.swift in Sources */,
 				85E8CA361F57BF8F0055723E /* LSBaseTableCell.swift in Sources */,
 				85E8CAE91F593DC20055723E /* LSFileListCell.swift in Sources */,
 				85E8CA811F590CED0055723E /* LSImageCollectionViewController.swift in Sources */,
+				8581F3DD1F5D50F900180100 /* LSImageViewExtension.swift in Sources */,
 				85E8CA5B1F5907540055723E /* LSBaseViewController.swift in Sources */,
 				85E8CA851F590D2F0055723E /* LSPHAssetExtension.swift in Sources */,
 				85E8CAE31F593A840055723E /* LSFilePreviewViewController.swift in Sources */,
 				85E8CA511F57EA4B0055723E /* LSTableCellDef.swift in Sources */,
 				85E8CA4F1F57DC8D0055723E /* LSPch.swift in Sources */,
 				85E8CA561F581CEA0055723E /* LSMenuCollectionViewCell.swift in Sources */,
+				8581F3DB1F5D50F900180100 /* LSFontExtension.swift in Sources */,
 				85E8CA441F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift in Sources */,
-				85E8CA2E1F57BE080055723E /* LSButtonExtension.swift in Sources */,
-				85E8CA341F57BE080055723E /* LSViewExtension.swift in Sources */,
+				8581F3DC1F5D50F900180100 /* LSImageExtension.swift in Sources */,
 				85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */,
 				85E8CAE71F593BF80055723E /* LSFileModel.swift in Sources */,
+				8581F3E11F5D512000180100 /* LSArrayExtension.swift in Sources */,
 				85E8CA7F1F590CBA0055723E /* LSAlbumListViewController.swift in Sources */,
 				85E8CA611F5907D90055723E /* LSBaseTableViewController.swift in Sources */,
 				85E8CA491F57C7D10055723E /* AppDelegate.swift in Sources */,
 				85E8CA4B1F57C7D10055723E /* ViewController.swift in Sources */,
 				85E8CA651F590A880055723E /* LSNetwork.swift in Sources */,
+				8581F3DF1F5D50F900180100 /* LSViewExtension.swift in Sources */,
 				85E8CA891F590DC40055723E /* LSImageCollectionViewCell.swift in Sources */,
 				85E8CA531F580C5F0055723E /* LSTableViewData.swift in Sources */,
 				85E8CA401F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift in Sources */,
-				85E8CA331F57BE080055723E /* LSLabelExtension.swift in Sources */,
 				85E8CA381F57BFCE0055723E /* LSLeftTitleRightTitleCell.swift in Sources */,
-				85E8CA311F57BE080055723E /* LSImageExtension.swift in Sources */,
 				85E8CA831F590D180055723E /* LSImageHelper.swift in Sources */,
 				85E8CA631F59085C0055723E /* LSBaseWebViewController.swift in Sources */,
+				8581F3D91F5D50F900180100 /* LSButtonExtension.swift in Sources */,
 				85E8CA3E1F57C0A60055723E /* LSTextFiledCell.swift in Sources */,
+				8581F3E31F5D513300180100 /* LSStringExtension.swift in Sources */,
 				85E8CA871F590D550055723E /* LSAlbumListCell.swift in Sources */,
 				85E8CA421F57C13F0055723E /* LSTopBottomTitleCell.swift in Sources */,
-				85E8CA301F57BE080055723E /* LSFontExtension.swift in Sources */,
+				8581F3DE1F5D50F900180100 /* LSLabelExtension.swift in Sources */,
+				8581F3DA1F5D50F900180100 /* LSColorExtension.swift in Sources */,
 				85E8CA5D1F59078B0055723E /* LSBaseNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

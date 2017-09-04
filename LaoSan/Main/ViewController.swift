@@ -61,6 +61,8 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         switch indexPath.item {
         case 0:
             //LSKit
+            let lsKitVC = LSKitViewController()
+            navigationController?.pushViewController(lsKitVC, animated: true)
             break
         case 1:
             //音频播放

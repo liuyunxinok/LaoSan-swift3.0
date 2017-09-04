@@ -148,7 +148,7 @@ class LSImageCollectionViewController: UICollectionViewController {
             self.present(imagePickerVC, animated: true, completion: nil)
         }else{
             let cell: LSImageCollectionViewCell = collectionView.cellForItem(at: indexPath) as! LSImageCollectionViewCell
-            if cell.asset?.isSelected ?? false {
+            if cell.asset!.isSelected ?? false {
                 for (index, value) in self.selectArray.enumerated() {
                     if value.identifier == cell.asset?.localIdentifier {
                         self.selectArray.remove(at: index)
@@ -184,11 +184,11 @@ class LSImageCollectionViewController: UICollectionViewController {
         self.collectionView?.isUserInteractionEnabled = false
         cell.selectImageView.isHidden = !cell.selectImageView.isHidden
         cell.indexLabel.isHidden = !cell.indexLabel.isHidden
-        cell.asset?.isSelected = (cell.asset?.isSelected ?? false) ? false : true
+        cell.asset!.isSelected = (cell.asset!.isSelected ?? false) ? false : true
         cell.indexLabel.text = String(format: "%d", self.selectArray.count)
         let indexPath = self.collectionView?.indexPath(for: cell)
         let asset = self.assetResult?[(indexPath?.item)!]
-        asset?.isSelected = cell.asset?.isSelected
+        asset!.isSelected = cell.asset!.isSelected
         self.changeRightItemState()
         cell.updateImageIsSelected(isSelected: !cell.selectImageView.isHidden) { (isFinish) in
             self.collectionView?.isUserInteractionEnabled = true
