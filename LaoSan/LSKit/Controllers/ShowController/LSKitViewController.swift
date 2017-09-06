@@ -49,6 +49,23 @@ extension LSKitViewController: UICollectionViewDataSource, UICollectionViewDeleg
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        switch indexPath.item {
+        case 0:
+            //基本cell展示
+            let lsKitShowCellVC = LSKitShowCellViewController()
+            navigationController?.pushViewController(lsKitShowCellVC, animated: true)
+            break
+        case 1:
+            break
+        case 2:
+            break
+        case 3:
+            break
+        case 4:
+            break
+        default:
+            break
+        }
     }
     
 }

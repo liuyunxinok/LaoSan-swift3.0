@@ -15,7 +15,7 @@ class LSBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //打印
-        print("init: %@",self)
+        print("init: ",self)
         
         //设置基本背景色
         self.view.backgroundColor = .white
@@ -23,7 +23,7 @@ class LSBaseViewController: UIViewController {
     }
     
     deinit {
-        print("dealloc: %@",self)
+        print("dealloc: ",self)
     }
     
 }

@@ -19,6 +19,14 @@ class LSBaseTableCell: UITableViewCell {
         return view
     }()
     
+    /// 是否隐藏分割线
+    var isHidenLine: Bool = false {
+        didSet{
+            self.separatorLine.isHidden = true
+        }
+    }
+    
+    
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
