@@ -81,7 +81,34 @@ extension LSBaseViewController {
     }
 }
 
+//MARK:顶部弹出错误提示
+extension LSBaseViewController {
 
+    public func showErrorFromTop(errorDes: String) -> Void {
+        let label = UILabel(text: errorDes, fontSize: 16, textColor: .white)
+        label.backgroundColor = .red
+        label.textAlignment = .center
+        label.frame = CGRect.init(x: 0, y: -64, width: SCREEN_WIDTH, height: 64)
+        UIApplication.shared.keyWindow?.addSubview(label)
+        UIApplication.shared.keyWindow?.bringSubview(toFront: label)
+        UIView.animate(withDuration: 0.25, animations: { 
+            label.ls_y = 0
+        }) { (isFinish) in
+            if isFinish {
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3 , execute: {
+                    UIView.animate(withDuration: 0.25, animations: {
+                        label.ls_y = -64
+                    }, completion: { (isFinish) in
+                        if isFinish {
+                            label.removeFromSuperview()
+                        }
+                    })
+                })
+            }
+        }
+        
+    }
+}
 
 
 

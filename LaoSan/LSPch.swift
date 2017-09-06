@@ -38,6 +38,9 @@ let ls_rightMargin: CGFloat = 13
 let ls_defaultCellHeight: CGFloat = 44
 
 
+/// actionButtonHeight
+let ls_actionButtonHeight: CGFloat = 50
+
 
 
 

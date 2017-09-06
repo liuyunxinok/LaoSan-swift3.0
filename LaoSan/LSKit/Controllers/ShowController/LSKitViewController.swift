@@ -24,7 +24,7 @@ class LSKitViewController: UIViewController {
     }()
     
     
-    let menuTitles = ["基本cell","待补模块","待补模块","待补模块","待补模块"]
+    let menuTitles = ["基本cell","loadingButton","待补模块","待补模块","待补模块"]
     
     
     override func viewDidLoad() {
@@ -53,9 +53,14 @@ extension LSKitViewController: UICollectionViewDataSource, UICollectionViewDeleg
         case 0:
             //基本cell展示
             let lsKitShowCellVC = LSKitShowCellViewController()
+            lsKitShowCellVC.title = self.menuTitles[indexPath.item]
             navigationController?.pushViewController(lsKitShowCellVC, animated: true)
             break
         case 1:
+            //loadingButton展示
+            let lsShowLoadingButtonVC = LSShowLoadingButtonViewController()
+            lsShowLoadingButtonVC.title = self.menuTitles[indexPath.item]
+            navigationController?.pushViewController(lsShowLoadingButtonVC, animated: true)
             break
         case 2:
             break

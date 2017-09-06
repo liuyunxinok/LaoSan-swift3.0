@@ -25,6 +25,9 @@
 		8581F3F31F5D619800180100 /* LSBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3EB1F5D619800180100 /* LSBaseWebViewController.swift */; };
 		8581F3F41F5D619800180100 /* LSKitShowCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3ED1F5D619800180100 /* LSKitShowCellViewController.swift */; };
 		8581F3F51F5D619800180100 /* LSKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3EE1F5D619800180100 /* LSKitViewController.swift */; };
+		8581F3F71F5FCCDE00180100 /* LSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3F61F5FCCDE00180100 /* LSStackView.swift */; };
+		8581F3F91F5FCD2700180100 /* LSLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3F81F5FCD2700180100 /* LSLoadingButton.swift */; };
+		8581F3FB1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3FA1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift */; };
 		85E8C9B71F5668D40055723E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B51F5668D40055723E /* Main.storyboard */; };
 		85E8C9B91F5668D40055723E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B81F5668D40055723E /* Assets.xcassets */; };
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
@@ -140,6 +143,9 @@
 		8581F3EB1F5D619800180100 /* LSBaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSBaseWebViewController.swift; sourceTree = "<group>"; };
 		8581F3ED1F5D619800180100 /* LSKitShowCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSKitShowCellViewController.swift; sourceTree = "<group>"; };
 		8581F3EE1F5D619800180100 /* LSKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSKitViewController.swift; sourceTree = "<group>"; };
+		8581F3F61F5FCCDE00180100 /* LSStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStackView.swift; sourceTree = "<group>"; };
+		8581F3F81F5FCD2700180100 /* LSLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLoadingButton.swift; sourceTree = "<group>"; };
+		8581F3FA1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSShowLoadingButtonViewController.swift; sourceTree = "<group>"; };
 		85E8C9AE1F5668D40055723E /* LaoSan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaoSan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9B61F5668D40055723E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E8C9B81F5668D40055723E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -290,6 +296,7 @@
 			children = (
 				8581F3ED1F5D619800180100 /* LSKitShowCellViewController.swift */,
 				8581F3EE1F5D619800180100 /* LSKitViewController.swift */,
+				8581F3FA1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift */,
 			);
 			path = ShowController;
 			sourceTree = "<group>";
@@ -462,6 +469,8 @@
 		85E8CA2D1F57BE080055723E /* views */ = {
 			isa = PBXGroup;
 			children = (
+				8581F3F61F5FCCDE00180100 /* LSStackView.swift */,
+				8581F3F81F5FCD2700180100 /* LSLoadingButton.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -1004,6 +1013,7 @@
 				85E8CAE11F593A6D0055723E /* LSFileListViewController.swift in Sources */,
 				85E8CAE51F593BCD0055723E /* LSFileManager.swift in Sources */,
 				85E8CA361F57BF8F0055723E /* LSBaseTableCell.swift in Sources */,
+				8581F3F91F5FCD2700180100 /* LSLoadingButton.swift in Sources */,
 				8581F3F11F5D619800180100 /* LSBaseTabViewController.swift in Sources */,
 				8581F3F51F5D619800180100 /* LSKitViewController.swift in Sources */,
 				85E8CAE91F593DC20055723E /* LSFileListCell.swift in Sources */,
@@ -1019,6 +1029,7 @@
 				8581F3DB1F5D50F900180100 /* LSFontExtension.swift in Sources */,
 				85E8CA441F57C16C0055723E /* LSTopTitleBottomTextFiledCell.swift in Sources */,
 				8581F3DC1F5D50F900180100 /* LSImageExtension.swift in Sources */,
+				8581F3F71F5FCCDE00180100 /* LSStackView.swift in Sources */,
 				85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */,
 				85E8CAE71F593BF80055723E /* LSFileModel.swift in Sources */,
 				8581F3E11F5D512000180100 /* LSArrayExtension.swift in Sources */,
@@ -1029,6 +1040,7 @@
 				8581F3F41F5D619800180100 /* LSKitShowCellViewController.swift in Sources */,
 				8581F3DF1F5D50F900180100 /* LSViewExtension.swift in Sources */,
 				8581F3F01F5D619800180100 /* LSBaseTableViewController.swift in Sources */,
+				8581F3FB1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift in Sources */,
 				85E8CA891F590DC40055723E /* LSImageCollectionViewCell.swift in Sources */,
 				85E8CA531F580C5F0055723E /* LSTableViewData.swift in Sources */,
 				85E8CA401F57C0C90055723E /* LSLeftTitleRightSwitchCell.swift in Sources */,

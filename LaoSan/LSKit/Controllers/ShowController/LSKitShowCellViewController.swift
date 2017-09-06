@@ -76,6 +76,10 @@ class LSKitShowCellViewController: LSBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(self.tableView)
+        
+        //测试错误提示
+        self.showErrorFromTop(errorDes: "网络错误,已断开连接...")
+        
     }
     
 }
