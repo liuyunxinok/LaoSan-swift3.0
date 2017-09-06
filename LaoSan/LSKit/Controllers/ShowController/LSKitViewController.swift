@@ -46,6 +46,11 @@ extension LSKitViewController: UICollectionViewDataSource, UICollectionViewDeleg
         cell.titleLabel.text = self.menuTitles[indexPath.item]
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+    
 }
 
 
