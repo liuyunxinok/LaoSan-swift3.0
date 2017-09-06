@@ -14,7 +14,6 @@ class LSKitShowCellViewController: LSBaseViewController {
         let view = UITableView.init(frame: self.view.bounds, style: .plain)
         view.dataSource = self
         view.delegate = self
-//        view.register(LSBaseTableCell.classForCoder(), forCellReuseIdentifier: NSStringFromClass(LSBaseTableCell.classForCoder()))
         view.separatorStyle = .none
         return view
     }()

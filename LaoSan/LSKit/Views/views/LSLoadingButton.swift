@@ -51,7 +51,6 @@ class LSLoadingButton: UIButton {
     
     override func layoutSubviews() {
         if !isStartLoading  {
-            
             switch self.titleShowType {
             case .none:
                 self.indicatorView.frame = CGRect(x: (self.ls_width - self.indicatorView.ls_width) / 2, y: (self.ls_height - self.indicatorView.ls_height) / 2.0, width: 25, height: 25)
@@ -65,13 +64,13 @@ class LSLoadingButton: UIButton {
         }
     }
     
-    func startLoading() -> Void {
+   public func startLoading() -> Void {
         self.adjustTitlePosition(offset: 40)
         self.isUserInteractionEnabled = false
         self.indicatorView.startAnimating()
     }
     
-    func stopLoading() -> Void {
+   public func stopLoading() -> Void {
         self.resumeTitlePosition()
         self.isUserInteractionEnabled = true
         self.indicatorView.stopAnimating()

@@ -28,6 +28,7 @@
 		8581F3F71F5FCCDE00180100 /* LSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3F61F5FCCDE00180100 /* LSStackView.swift */; };
 		8581F3F91F5FCD2700180100 /* LSLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3F81F5FCD2700180100 /* LSLoadingButton.swift */; };
 		8581F3FB1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3FA1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift */; };
+		8581F3FD1F5FF67B00180100 /* LSShowStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F3FC1F5FF67B00180100 /* LSShowStackViewController.swift */; };
 		85E8C9B71F5668D40055723E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B51F5668D40055723E /* Main.storyboard */; };
 		85E8C9B91F5668D40055723E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9B81F5668D40055723E /* Assets.xcassets */; };
 		85E8C9BC1F5668D40055723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8C9BA1F5668D40055723E /* LaunchScreen.storyboard */; };
@@ -146,6 +147,7 @@
 		8581F3F61F5FCCDE00180100 /* LSStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSStackView.swift; sourceTree = "<group>"; };
 		8581F3F81F5FCD2700180100 /* LSLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLoadingButton.swift; sourceTree = "<group>"; };
 		8581F3FA1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSShowLoadingButtonViewController.swift; sourceTree = "<group>"; };
+		8581F3FC1F5FF67B00180100 /* LSShowStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSShowStackViewController.swift; sourceTree = "<group>"; };
 		85E8C9AE1F5668D40055723E /* LaoSan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaoSan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8C9B61F5668D40055723E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E8C9B81F5668D40055723E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				8581F3ED1F5D619800180100 /* LSKitShowCellViewController.swift */,
 				8581F3EE1F5D619800180100 /* LSKitViewController.swift */,
 				8581F3FA1F5FD48B00180100 /* LSShowLoadingButtonViewController.swift */,
+				8581F3FC1F5FF67B00180100 /* LSShowStackViewController.swift */,
 			);
 			path = ShowController;
 			sourceTree = "<group>";
@@ -1031,6 +1034,7 @@
 				8581F3DC1F5D50F900180100 /* LSImageExtension.swift in Sources */,
 				8581F3F71F5FCCDE00180100 /* LSStackView.swift in Sources */,
 				85E8CA3C1F57C00A0055723E /* LSleftImageTitleCell.swift in Sources */,
+				8581F3FD1F5FF67B00180100 /* LSShowStackViewController.swift in Sources */,
 				85E8CAE71F593BF80055723E /* LSFileModel.swift in Sources */,
 				8581F3E11F5D512000180100 /* LSArrayExtension.swift in Sources */,
 				85E8CA7F1F590CBA0055723E /* LSAlbumListViewController.swift in Sources */,

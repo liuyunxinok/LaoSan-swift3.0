@@ -41,6 +41,11 @@ let ls_defaultCellHeight: CGFloat = 44
 /// actionButtonHeight
 let ls_actionButtonHeight: CGFloat = 50
 
+/// 构造LSStackView时候数据源字典的key
+let ls_stackTitleKey = "ls_stackViewTitleKey"
+let ls_stackImageKey = "ls_stackViewImageKey"
+let ls_stackViewHeight: CGFloat = 50
+
 
 
 
