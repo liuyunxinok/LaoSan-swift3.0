@@ -97,6 +97,7 @@ class LSStackViewCollectionCell: UICollectionViewCell {
     /// stackButton
     lazy var stackButton: UIButton = {
         let button = UIButton()
+        button.setTitleColor(.black, for: .normal)
         return button
     }()
     
