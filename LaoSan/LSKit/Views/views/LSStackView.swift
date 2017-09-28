@@ -23,6 +23,11 @@ public enum LSStackViewType {
     case topTitleBottomImage
 }
 
+protocol LSStackViewDelegate {
+    
+    func stackView(stackView: LSStackView, didSelectItemAt indexPath: IndexPath ) -> Void 
+}
+
 class LSStackView: UIView {
     
     lazy var collectionView: UICollectionView = {
@@ -33,7 +38,7 @@ class LSStackView: UIView {
         let view = UICollectionView(frame: self.bounds, collectionViewLayout: layout)
         view.register(LSStackViewCollectionCell.classForCoder(), forCellWithReuseIdentifier: NSStringFromClass(LSStackViewCollectionCell.classForCoder()))
         view.bounces = false
-        view.backgroundColor = .white
+        view.backgroundColor = .gray
         view.dataSource = self
         view.delegate = self
         return view
@@ -89,6 +94,11 @@ extension LSStackView: UICollectionViewDataSource, UICollectionViewDelegate {
         let itemWidth = SCREEN_WIDTH / CGFloat(self.dataSouece!.count)
         return CGSize(width: itemWidth, height: ls_stackViewHeight)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+    
 }
 
 /// stackView的cell
