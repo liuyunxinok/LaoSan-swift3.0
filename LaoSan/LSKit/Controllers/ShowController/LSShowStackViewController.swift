@@ -12,6 +12,7 @@ class LSShowStackViewController: LSBaseViewController {
     
     lazy var stackView: LSStackView = {
         let view = LSStackView(frame: CGRect(x: 0, y: self.view.ls_height - ls_stackViewHeight, width: SCREEN_WIDTH, height: ls_stackViewHeight))
+        view.delegate = self
         return view
     }()
 
@@ -19,5 +20,12 @@ class LSShowStackViewController: LSBaseViewController {
         super.viewDidLoad()
         self.view.addSubview(self.stackView)
         self.stackView.dataSouece = [[ls_stackTitleKey:"待发货",ls_stackImageKey:""],[ls_stackTitleKey:"待收货",ls_stackImageKey:""],[ls_stackTitleKey:"待评价",ls_stackImageKey:""]]
+    }
+}
+
+extension LSShowStackViewController: LSStackViewDelegate {
+    
+    func stackView(stackView: LSStackView, didSelectItemAt indexPath: IndexPath) {
+        print("点击了第\(indexPath.item)个stackViewItem")
     }
 }

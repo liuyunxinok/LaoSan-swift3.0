@@ -23,9 +23,9 @@ public enum LSStackViewType {
     case topTitleBottomImage
 }
 
-protocol LSStackViewDelegate {
+@objc protocol LSStackViewDelegate: NSObjectProtocol {
     
-    func stackView(stackView: LSStackView, didSelectItemAt indexPath: IndexPath ) -> Void 
+    @objc optional func stackView(stackView: LSStackView, didSelectItemAt indexPath: IndexPath)
 }
 
 class LSStackView: UIView {
@@ -58,6 +58,8 @@ class LSStackView: UIView {
         }
     }
     
+    weak var delegate: LSStackViewDelegate?
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -68,7 +70,7 @@ class LSStackView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-     override func layoutSubviews() {
+    override func layoutSubviews() {
         super.layoutSubviews()
         self.collectionView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
@@ -79,7 +81,7 @@ class LSStackView: UIView {
 
 // MARK: - UICollectionViewDataSource, UICollectionViewDelegate
 extension LSStackView: UICollectionViewDataSource, UICollectionViewDelegate {
-
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.dataSouece?.count ?? 0
     }
@@ -96,7 +98,7 @@ extension LSStackView: UICollectionViewDataSource, UICollectionViewDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        self.delegate?.stackView!(stackView: self, didSelectItemAt: indexPath)
     }
     
 }
@@ -108,6 +110,7 @@ class LSStackViewCollectionCell: UICollectionViewCell {
     lazy var stackButton: UIButton = {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
+        button.isUserInteractionEnabled = false
         return button
     }()
     
@@ -167,7 +170,7 @@ class LSStackViewCollectionCell: UICollectionViewCell {
         }
     }
     
-        
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.contentView.addSubview(self.stackButton)
